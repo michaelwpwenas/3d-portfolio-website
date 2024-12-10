@@ -24,35 +24,35 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Kalki Varadharajan',
+    position: 'Marketing Director',
+    img: 'assets/review-5.jfif',
     review:
-      'Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'The experience of working with Michael was wonderful. He transformed our antiquated website into a cutting-edge, intuitive platform. His dedication to excellence and meticulousness are unparalleled. I heartily endorse him for any site development work.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
-    img: 'assets/review2.png',
+    name: 'Emily Rogers',
+    position: 'Self-Employed',
+    img: 'assets/review-6.jfif',
     review:
-      'Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Michael has incredibly excellent web building skills. He developed a strong and scalable solution for our e-commerce site, and our online sales have greatly improved since the debut. He truly is a professional! Outstanding effort.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
-    img: 'assets/review3.png',
+    name: 'Alex Nguyen',
+    position: 'Project Manager',
+    img: 'assets/review-7.jfif',
     review:
-      'I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      'I have nothing but praise for Michael. He was able to take our complex project requirements and transform them into a seamless, effective website. His ability to solve problems is exceptional.',
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    name: 'Ethel Kei',
+    position: 'Business Executive',
+    img: 'assets/review-8.jfif',
     review:
-      'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      'It was a pleasure working with Michael. He created a website that beyond our expectations after fully understanding our needs. He has excellent front-end and back-end development skills.',
   },
 ];
 
@@ -162,7 +162,7 @@ export const myProjects = [
       'The website is built mostly with a knowledge in HTML5, CSS3 and Javascript, compiled through the open-source publishing tool, Wordpress.org',
     href: 'https://csbronline.org/',
     texture: '/textures/project/project4.mp4',
-    logo: 'https://csbronline.org/wp-content/uploads/2024/11/logo-1-1080x1155.png',
+    logo: '/assets/logo-csbr.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -199,7 +199,7 @@ export const myProjects = [
       'The website is built mostly with a knowledge in HTML5, CSS3 and Javascript, compiled through the open-source publishing tool, Wordpress.org',
     href: 'https://gayanusantara.or.id/',
     texture: '/textures/project/project5.mp4',
-    logo: 'https://i0.wp.com/gayanusantara.or.id/wp-content/uploads/2024/05/cropped-cropped-logo-gaya-nusantara-no-tag-png-1-1.png?w=645&ssl=1',
+    logo: '/assets/logo-gn.webp',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -245,29 +245,29 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: 'Framer',
-    pos: 'Lead Web Developer',
-    duration: '2022 - Present',
-    title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: '/assets/framer.svg',
+    name: 'Outlier AI',
+    pos: 'Contractor',
+    duration: 'December 2024 - present',
+    title: "This data collection job comes with a specifity for AI Indonesian-to-English data input. This job helps me to expand my knowledge in linguistic data science.",
+    icon: '/assets/logo-outlier.jfif',
     animation: 'victory',
   },
   {
     id: 2,
-    name: 'Figma',
+    name: 'CSBR',
     pos: 'Web Developer',
-    duration: '2020 - 2022',
-    title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: '/assets/figma.svg',
+    duration: 'May 2024 - present',
+    title: "This is a a freelance job that is contractual in nature. I learn about developing HTML5, CSS3 and Javascript website through Wordpress.org framework.",
+    icon: '/assets/logo-csbr.png',
     animation: 'clapping',
   },
   {
     id: 3,
-    name: 'Notion',
-    pos: 'Junior Web Developer',
-    duration: '2019 - 2020',
-    title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: '/assets/notion.svg',
+    name: 'GAYa Nusantara',
+    pos: 'Web Developer',
+    duration: 'January 2024 - present',
+    title: "This is a a freelance job that is voluntary in nature. I learn about developing HTML5, CSS3 and Javascript website through Wordpress.org framework.",
+    icon: '/assets/logo-gn.webp',
     animation: 'salute',
   },
 ];

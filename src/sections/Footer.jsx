@@ -9,13 +9,28 @@ const Footer = () => {
 
       <div className="flex gap-3">
         <div className="social-icon">
-          <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+        <a href="https://github.com/michaelwpwenas" class="flex justify-center">
+  <img 
+    src="/assets/github.svg" 
+    alt="github" 
+    className="w-1/2 h-1/2" />
+</a>
         </div>
         <div className="social-icon">
-          <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
+          <a href="https://www.instagram.com/michaelwenas.exe/" class="flex justify-center" >
+          <img src="/assets/instagram.svg" 
+          alt="instagram" 
+          className="w-1/2 h-1/2"
+          />
+          </a>
         </div>
         <div className="social-icon">
-          <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
+          <a href="https://www.linkedin.com/in/michael-wenas-2a83522b6/" class="flex justify-center">
+        <img src="/assets/linkedin.png" 
+          alt="linkedin" 
+          className="w-1/2 h-1/2"
+         />
+          </a>
         </div>
       </div>
 
